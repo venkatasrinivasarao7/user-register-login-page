@@ -1,1 +1,36 @@
+# User Registration and Login Web Application
 
+This is a **Spring MVC web application** that allows users to **register and login securely**. It is built using **only annotations (no XML configuration)** for learning modern Spring MVC practices.
+
+## Features
+
+- User Registration with form validation
+- User Login with session management
+- Profile page to view user details
+- Logout functionality to end session
+- Integrated with MySQL database
+- Clean project structure with Controller, Service, DAO layers
+
+##  Technologies Used
+
+- Java
+- Spring MVC
+- JSP / JSTL
+- MySQL
+- Maven
+- Spring Tool Suite / Eclipse IDE
+
+##  How to Run Locally
+
+1. **Clone this repository**
+## Database Table Creation Example
+
+```sql
+CREATE TABLE users (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(100) NOT NULL,
+ email VARCHAR(100) NOT NULL UNIQUE,
+ password VARCHAR(100) NOT NULL
+);
+Venkata Srinivasarao
+Java Backend Developer
