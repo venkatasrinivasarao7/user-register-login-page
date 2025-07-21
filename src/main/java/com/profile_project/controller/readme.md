@@ -26,11 +26,11 @@ This is a **Spring MVC web application** that allows users to **register and log
 ## Database Table Creation Example
 
 ```sql
-CREATE TABLE users (
- id INT AUTO_INCREMENT PRIMARY KEY,
- name VARCHAR(100) NOT NULL,
- email VARCHAR(100) NOT NULL UNIQUE,
- password VARCHAR(100) NOT NULL
-);
+create table user_details(id int auto_increment primary key,
+ name varchar(30) not null,email varchar(30) unique ,
+password varchar(30), year int,lang varchar(70),
+job_role varchar(30),
+locations varchar(70));
+
 Venkata Srinivasarao
 Java Backend Developer
